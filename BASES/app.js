@@ -1,2 +1,8 @@
-var mg = 'Hola mundo';
-console.log(mg);
+"use strict";
+const mg = 'Hola mundo';
+const hero = {
+    name: 'Ironman',
+    age: 45
+};
+hero.age = 50;
+console.log(hero.age + 1);
